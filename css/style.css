@@ -1,0 +1,41 @@
+/* Estilos Gerais*/
+
+body{
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+/* Header */
+
+.header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #0F2350;
+  padding: 15px 0;
+}
+
+.header_menu{
+  text-align: right;
+}
+
+.header_menu ul li{
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+
+.header_menu ul li a{
+  color: #FFFFFF;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size: 1em;
+  line-height: 20px;
+  padding: 10px 0;
+}
+
+.header_menu ul li a:hover {
+  color: #FDA940;
+}
+
+/* Introdução */
