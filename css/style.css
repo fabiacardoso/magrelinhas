@@ -4,6 +4,29 @@ body{
   font-family: 'IBM Plex Mono', monospace;
 }
 
+p{
+ font-family: 'IBM Plex Sans', monospace;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.btn-vazado{
+  border: 3px solid #FFFFFF;
+  padding: 7px 30px;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+.btn-vazado:hover{
+  color:#FFFFFF;
+  background: #0F2350;
+  border-color: #0F2350;
+}
+
 /* Header */
 
 .header{
@@ -39,3 +62,49 @@ body{
 }
 
 /* Introdução */
+
+.introducao{
+  width: 100%;
+  height: 409px;
+  background: url("../img/bg-intro.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 96px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.introducao h1{
+  font-size: 48px;
+  color: #0F2350;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.quote-externo{
+max-width: 340px;
+margin: 0 auto;
+margin-bottom: 40px;
+color: #000000;
+}
+
+.quote-externo p{
+  font-style: italic;
+  font-size: 15px;
+}
+
+.quote-externo p:before, .quote-externo p:after{
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000000;
+  margin: 7px auto;
+}
+
+.quote-externo cite{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: .1em;
+}
+
