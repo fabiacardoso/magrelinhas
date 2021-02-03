@@ -6,11 +6,11 @@ body {
 
 p {
   font-family: "IBM Plex Sans", monospace;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 20px;
 }
 
-img{
+img {
   display: block;
 }
 
@@ -43,7 +43,7 @@ img{
 }
 
 .btn:hover {
-  color:#0f2350;
+  color: #0f2350;
   background: #fda940;
 }
 
@@ -187,47 +187,47 @@ img{
   padding: 20px;
 }
 
-.call{
+.call {
   text-align: center;
   padding-top: 40px;
   clear: both;
 }
 
-.call p{
+.call p {
   margin-bottom: 20px;
 }
 
 /* Portfolio */
 
-.portfolio{
+.portfolio {
   width: 100%;
-  background: #000F1E;
+  background: #000f1e;
   padding: 60px 0;
 }
 
-.portfolio .subtitulo{
+.portfolio .subtitulo {
   color: #ffffff;
 }
 
-.portfolio .subtitulo:after{
+.portfolio .subtitulo:after {
   background: #fda940;
 }
 
-.portfolio-lista li:last-child{
-margin-top: 20px;
+.portfolio-lista li:last-child {
+  margin-top: 20px;
 }
 
-.portfolio .call p{
+.portfolio .call p {
   color: #ffffff;
 }
 
 /* QUALIDADE */
 
-.qualidade{
+.qualidade {
   padding: 60px 0;
 }
 
-.qualidade:after{
+.qualidade:after {
   content: "";
   width: 623px;
   height: 71px;
@@ -239,15 +239,15 @@ margin-top: 20px;
   z-index: -1;
 }
 
-.qualidade img{
+.qualidade img {
   margin: 0 auto;
 }
 
-.qualidade-lista{
+.qualidade-lista {
   padding-top: 50px;
 }
 
-.qualidade-lista li{
+.qualidade-lista li {
   text-align: center;
   padding: 0 40px;
 }
@@ -271,7 +271,7 @@ margin-top: 20px;
 }
 
 /* QUEBRA */
-.quebra{
+.quebra {
   width: 100%;
   height: 220px;
   background: url("../img/bg-footer.jpg") no-repeat center;
@@ -280,33 +280,77 @@ margin-top: 20px;
   padding-top: 40px;
 }
 
-.quebra blockquote p{
+.quebra blockquote p {
   color: #ffffff;
 }
 
-.quebra blockquote cite{
+.quebra blockquote cite {
   color: #ffffff;
 }
 
-.quebra .quote-externo{
+.quebra .quote-externo {
   max-width: 400px;
 }
 
 /* FOOTER */
 
-.footer{
+.footer {
   width: 100%;
-  background: #000F1E;
+  background: #000f1e;
   color: #ffffff;
   padding: 40px 0;
 }
 
-.footer h3{
+.footer h3 {
   font-size: 18px;
   line-height: 25px;
   color: #fda940;
   text-transform: uppercase;
   font-weight: bold;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
+}
+
+.footer h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fda940;
+  margin: 6px 0 12px 0;
+}
+
+.footer-historia {
+  padding-right: 40px;
+}
+
+.footer-contato ul li {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.footer-redes ul li{
+  display: inline-block;
+}
+
+.footer-redes ul li a{
+  border: 3px  solid  #fda940;
+  display: block;
+  padding: 10px;
+}
+
+.footer-redes ul li a:hover{
+border-color: #ffffff;
+background-color: #fda940;
+}
+
+.copy{
+  width: 100%;
+  background: #fda940;
+  padding: 20px;
+  text-align: center;
+}
+
+.copy p{
+  font-weight: bold;
 }
 
