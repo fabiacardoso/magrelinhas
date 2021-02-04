@@ -1,0 +1,38 @@
+.interna-produtos {
+  background: url("../img/bg-produtos.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.produto-item {
+  padding-top: 60px;
+}
+
+.produto-item h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  color: #ffffff;
+  position: relative;
+  top: -180px;
+  text-align: center;
+  margin-bottom: -50px;
+}
+
+.produto-item h2:after, .produto-item h2:before{
+content: "";
+display: block;
+width: 60px;
+height: 3px;
+background:  #fda940;
+margin: 6px auto 6px auto;
+}
+
+.produto-icone {
+  background: #000f1e;
+  padding: 90px 0;
+}
+
+.produto-icone img {
+  margin: 0 auto;
+}
