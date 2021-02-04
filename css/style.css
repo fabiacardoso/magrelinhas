@@ -66,6 +66,24 @@ img {
   margin: 7px auto;
 }
 
+.subtitulo-interno {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #0f2350;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.subtitulo-interno:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fda940;
+  margin: 7px 0;
+}
+
 /* Header */
 
 .header {
@@ -98,6 +116,10 @@ img {
 }
 
 .header_menu ul li a:hover {
+  color: #fda940;
+}
+
+.header_menu ul li a.menu-ativo{
   color: #fda940;
 }
 
@@ -148,6 +170,34 @@ img {
   font-size: 14px;
   letter-spacing: 0.1em;
 }
+
+/* Introdução Interna */
+
+.introducao-interna{
+  width: 100%;
+  height: 160px;
+  margin-top: 90px;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 30px;
+}
+
+.introducao-interna h1{
+font-size: 36px;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.introducao-interna h1:after{
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #ffffff;
+  margin: 7px auto;
+}
+
 
 /* Produtos */
 
@@ -245,6 +295,7 @@ img {
 
 .qualidade-lista {
   padding-top: 50px;
+  overflow: auto; /* clear-fix */
 }
 
 .qualidade-lista li {
