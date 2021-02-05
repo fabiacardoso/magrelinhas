@@ -1,5 +1,5 @@
 .interna-produtos {
-  background: url("../img/bg-produtos.jpg") no-repeat center;
+  background: url("../img/bg-produtos.png") no-repeat center;
   background-size: cover;
 }
 
@@ -35,4 +35,37 @@ margin: 6px auto 6px auto;
 
 .produto-icone img {
   margin: 0 auto;
+}
+
+.produto-info{
+  background: #000f1e;
+}
+
+.produto-info p {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 30px 40px;
+  height: 182px;
+}
+
+.produto-info ul li{
+  background: #fda940;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 20px;
+  float: left;
+  width: 229px;
+  height: 48px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.produto-info ul li:nth-child(even){
+  margin-left: 2px;
+}
+
+.produto-info ul li:nth-child(1), .produto-info ul li:nth-child(2){
+  margin-bottom: 2px;
 }
