@@ -8,7 +8,6 @@ Inicialmente foi criada a paleta de cores do site e a escolha da familia tipogra
 <br>
 No caso do meu projeto, eu decidi criar uma loja um pouco diferente, criei uma identidade visual utilizando o Adobe Illustrator e escolhi uma paleta de cores e uma familia tipografica diferentes do proposto do projeto do curso. Fiz isso porque desejava me desafiar a não fazer uma copia fiel do projeto e assim dar o meu toque criativo.  
 <br>
-<br>
 
 ## Link de Demonstração do Site
 
@@ -16,9 +15,14 @@ Você pode ter uma prévia do site no link abaixo:
 
 https://fabiacardoso.github.io/magrelinhas/
 
+<br>
+
+## Ferramentas utilizadas
+<img src="/img-readme/front-end-stack.png">
+
 ## Grade do Curso
-<img src="/img/grade-curso-01.PNG">
-<img src="/img/grade-curso.PNG">
+<img src="/img-readme/grade-curso-01.PNG">
+<img src="/img-readme/grade-curso.PNG">
 
 
 
