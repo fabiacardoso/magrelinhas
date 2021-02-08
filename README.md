@@ -5,7 +5,9 @@ O curso tem foco na teoria e prática, é ensinado os fundamentos por trás de c
 <br>
 
 ## Grade do Curso
+<img src="/img/grade-curso-01.PNG">
 <img src="/img/grade-curso.PNG">
+
 
 ## Link de Demonstração
 
