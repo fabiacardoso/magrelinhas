@@ -1,4 +1,5 @@
-# Site da Loja Magrelinhas
+# Site da Loja Magrelinhas 
+<img src="/img-readme/front-end-stack.png" width="180">
 Projetos desenvolvido no curso de Web Design Completo da Origamid. 
 O curso tem foco na teoria e prática, é ensinado os fundamentos por trás de cada decisão de design ou código. Dessa forma, para melhorar a experiência de aprendizado, todos os alunos são desafiados a desenvolver, ao longo do curso, um projeto real aplicando todo conhecimento adiquido durante o curso. O projeto final é um site de uma loja de bicicletas chamada Bikcraft. 
 <br>
@@ -14,11 +15,8 @@ No caso do meu projeto, eu decidi criar uma loja um pouco diferente, criei uma i
 Você pode ter uma prévia do site no link abaixo:
 
 https://fabiacardoso.github.io/magrelinhas/
-
 <br>
 
-## Ferramentas utilizadas
-<img src="/img-readme/front-end-stack.png">
 
 ## Grade do Curso
 <img src="/img-readme/grade-curso-01.PNG">
