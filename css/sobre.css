@@ -1,25 +1,25 @@
-.interna-sobre{
-  background: url("../img/bg-sobre.png") no-repeat center;
-  background-size: cover;
+.interna_sobre {
+	background: url("../img/bg-sobre.jpg") no-repeat center;
+	background-size: cover;
 }
 
-.missao-sobre{
-  padding-top: 60px;
-  font-family: "IBM Plex Sans", monospace;
+.missao_sobre {
+	padding-top: 60px;
 }
 
-.missao-sobre p{
-  font-size: 18px;
-  line-height: 25px;
-  margin-bottom: 1em;
-  padding-right: 60px;
+.missao_sobre p {
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 1em;
+	padding-right: 60px
 }
 
-.missao-sobre ul li{
-  font-size: 18px;
-  line-height: 30px;
+.missao_sobre ul li {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 18px;
+	line-height: 30px;
 }
 
-.foto-sobre{
-  padding-top: 40px;
+.foto-equipe {
+	padding-top: 20px;
 }
