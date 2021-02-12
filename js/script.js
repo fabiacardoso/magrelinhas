@@ -1,4 +1,4 @@
-if (window.SimpleSlide) {
+// if (window.SimpleSlide) {
 
 	new SimpleSlide({
 		slide: "quote", // nome do atributo data-slide="principal"
@@ -11,4 +11,3 @@ if (window.SimpleSlide) {
 		nav: true
 	});
 
-}
